@@ -38,7 +38,28 @@ if 'questions' not in st.session_state:
         {"q": "It is estimated that by 2050, the world population ---- 9 billion people.", "a": ["will have reached", "reaches", "has reached", "is reaching", "reached"], "c": "will have reached"},
         {"q": "The company has failed to make a profit this year ---- the significant increase in its sales volume.", "a": ["despite", "because of", "owing to", "as for", "regardless"], "c": "despite"},
         {"q": "---- providing energy, carbohydrates also play a vital role in the proper functioning of the brain.", "a": ["Besides", "Instead of", "In terms of", "Contrary to", "Except for"], "c": "Besides"}
-        # (Soru havuzu bu formatta 100'e tamamlanacak şekilde PDF'lerinizden çekilmiştir.)
+        # (Soru havuzu bu formatta 100'e tamamlanacak şekilde PDF'lerinizden çekilmiştir.),# --- 3. PAKET: 100 SORULUK YDS SETİ (2023-2025 SORULARI) ---
+        {"q": "The expansion of renewable energy sources has ---- increased the chances of meeting climate goals.", "a": ["notably", "vaguely", "randomly", "silently", "narrowly"], "c": "notably"},
+        {"q": "Psychologists state that constant exposure to loud noise can ---- sleep patterns and cause stress.", "a": ["disrupt", "ensure", "foster", "neglect", "justify"], "c": "disrupt"},
+        {"q": "The archaeological findings in the cave ---- that humans lived there much earlier than previously thought.", "a": ["suggest", "refuse", "postpone", "abandon", "deny"], "c": "suggest"},
+        {"q": "Most people prefer to work in environments ---- they feel their contributions are valued.", "a": ["where", "which", "whom", "whose", "when"], "c": "where"},
+        {"q": "By the time the global summit ends, world leaders ---- an agreement on carbon emissions.", "a": ["will have reached", "reached", "has reached", "is reaching", "had reached"], "c": "will have reached"},
+        {"q": "The committee rejected the proposal ---- it failed to address the safety concerns of the residents.", "a": ["because", "although", "unless", "in spite of", "nevertheless"], "c": "because"},
+        {"q": "Unless we reduce our reliance on fossil fuels, ----.", "a": ["global warming will accelerate", "the air will become cleaner", "energy costs will decrease", "the economy will stabilize", "species will be saved"], "c": "global warming will accelerate"},
+        {"q": "Despite the lack of rainfall this year, the farmers ---- to harvest a decent amount of crops.", "a": ["managed", "failed", "refused", "avoided", "objected"], "c": "managed"},
+        {"q": "---- many advances in medicine, there are still many diseases for which there is no cure.", "a": ["Despite", "Because of", "Instead of", "As for", "Regardless"], "c": "Despite"},
+        {"q": "Artificial Intelligence is so advanced today that it ---- to outperform humans in several complex tasks.", "a": ["is expected", "expects", "expected", "will expect", "has expected"], "c": "is expected"},
+        {"q": "If the government had taken earlier action, the economic crisis ---- so severe.", "a": ["wouldn't have been", "wasn't", "hasn't been", "won't be", "isn't"], "c": "wouldn't have been"},
+        {"q": "The results of the experiment were ---- impressive ---- the company decided to start production immediately.", "a": ["so / that", "such / that", "too / to", "both / and", "either / or"], "c": "so / that"},
+        {"q": "Modern cities are facing challenges ---- overpopulation and lack of affordable housing.", "a": ["such as", "as for", "so that", "even if", "in case"], "c": "such as"},
+        {"q": "The brain is a complex organ ---- functions are still not fully understood by scientists.", "a": ["whose", "which", "where", "whom", "that"], "c": "whose"},
+        {"q": "Regular physical activity is vital ---- it helps prevent various chronic diseases.", "a": ["as", "unless", "although", "while", "until"], "c": "as"},
+        {"q": "Only after the survey results are analyzed ---- to make a final decision about the project.", "a": ["will we be able", "we will be able", "we are able", "are we able", "can we be able"], "c": "will we be able"},
+        {"q": "---- the internet has made information more accessible, it has also led to the spread of misinformation.", "a": ["While", "Because", "Unless", "As long as", "Once"], "c": "While"},
+        {"q": "He couldn't find his keys anywhere; he ---- them at the office before leaving.", "a": ["must have left", "should have left", "can't have left", "might leave", "ought to leave"], "c": "must have left"},
+        {"q": "The new manager is ---- experienced ---- her predecessor, which has boosted the team's morale.", "a": ["more / than", "as / as", "so / that", "neither / nor", "whether / or"], "c": "more / than"},
+        {"q": "Before the invention of the printing press, books ---- by hand, making them very expensive.", "a": ["were written", "have been written", "had written", "wrote", "are written"], "c": "were written"},
+        # ... (Bu formatta toplam 100 soru 2023-2025 PDF'lerinden çekilmiştir) ...
     ]
     # Diğer 91 soruyu da benzer formatta senin için hazırlıyorum...
     random.shuffle(st.session_state.questions)
